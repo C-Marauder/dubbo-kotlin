@@ -1,0 +1,8 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xqy.www.domain.Girl">
+    <select id="findGirlByName" resultType="Girl">
+        select * from t_app_girl where name = #{name}
+    </select>
+</mapper>

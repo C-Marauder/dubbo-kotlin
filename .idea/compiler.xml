@@ -7,19 +7,25 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="api" />
+        <module name="client" />
+        <module name="customer" />
         <module name="domain" />
         <module name="dubbo-core" />
         <module name="dubbo-kotlin" />
+        <module name="mybatis" />
         <module name="provider" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="api" target="1.6" />
+      <module name="api" target="1.5" />
+      <module name="client" target="1.5" />
       <module name="core" target="1.5" />
+      <module name="customer" target="1.5" />
       <module name="demo" target="1.8" />
-      <module name="domain" target="1.6" />
-      <module name="dubbo-core" target="1.6" />
+      <module name="domain" target="1.5" />
+      <module name="dubbo-core" target="1.5" />
       <module name="dubbo-kotlin" target="1.5" />
+      <module name="mybatis" target="1.5" />
       <module name="provider" target="1.5" />
     </bytecodeTargetLevel>
   </component>

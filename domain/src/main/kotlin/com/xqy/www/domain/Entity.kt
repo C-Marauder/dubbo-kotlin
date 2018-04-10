@@ -1,3 +1,6 @@
 package com.xqy.www.domain
 
-data class Girl(val name:String?=null)
+import java.io.Serializable
+
+data class Girl(val id:Int=1,val name:String?=null):Serializable
+
