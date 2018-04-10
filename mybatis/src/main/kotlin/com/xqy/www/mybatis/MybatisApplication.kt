@@ -4,7 +4,6 @@ import org.mybatis.spring.annotation.MapperScan
 import org.springframework.boot.SpringApplication
 //
 //@SpringBootApplication
-@MapperScan("com.xqy.www.mybatis.mapper")
 abstract class MybatisApplication
 //Wb-a?gyA+0I
 fun main(args: Array<String>) {
